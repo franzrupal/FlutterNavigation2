@@ -34,10 +34,7 @@ class _SecondScreenState extends State<SecondScreen> {
                     fontSize: 15),
               )),
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => LoginPage()),
-                );
+                Navigator.pop(context);
               },
             ),
           ),
